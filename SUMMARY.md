@@ -5,7 +5,7 @@
 ## Guidelines
 
 * [General Guidelines](guidelines/general-guidelines.md)
-* [Session and FI Status IDs](guidelines/session-and-fi-status-ids.md)
+* [Session ID and FI Status States](guidelines/session-id-and-fi-status-states.md)
 
 ## Certification Scenarios
 
