@@ -10,4 +10,5 @@
 ## Certification Scenarios
 
 * [FIU](certification-scenarios/fiu.md)
+* [FIP](certification-scenarios/fip.md)
 

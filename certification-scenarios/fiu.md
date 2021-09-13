@@ -1,5 +1,5 @@
 ---
-description: Sahamati certification Test Scenarios
+description: Sahamati certification Test Scenarios for Financial Information User
 ---
 
 # FIU
