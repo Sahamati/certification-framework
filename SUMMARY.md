@@ -9,6 +9,7 @@
 
 ## Certification Scenarios
 
-* [FIU](certification-scenarios/fiu.md)
+* [AA](certification-scenarios/aa.md)
 * [FIP](certification-scenarios/fip.md)
+* [FIU](certification-scenarios/fiu.md)
 
