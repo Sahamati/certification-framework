@@ -6,9 +6,9 @@ description: Sahamati certification Test Scenarios for Financial Information Use
 
 | Scenario ID | Feature Under Test | Description | Expected Result |
 | :--- | :--- | :--- | :--- |
-| 1001 | POST /Consent API of AA | Verify that FIU makes valid POST /Consent request to AA  | The request body coming from FIU in request should adhere to Spec |
-| 1002 | GET /Consent/{consenHandle} API of AA | Verify that FIU makes valid GET /Consent/{consenHandle} request to AA  | The consent handle in the api should match with the consent handle provided by AA |
-| 1003 | GET /Consent/{id} API of AA | Verify that FIU makes valid GET /Consent/{id} request to AA  | The consent id in the api should match with the consent id provided by AA |
+| 1001 | POST /Consent API of AA | Verify that FIU makes valid POST /Consent request to AA | The request body coming from FIU in request should adhere to Spec |
+| 1002 | GET /Consent/{consenHandle} API of AA | Verify that FIU makes valid GET /Consent/{consenHandle} request to AA | The consent handle in the api should match with the consent handle provided by AA |
+| 1003 | GET /Consent/{id} API of AA | Verify that FIU makes valid GET /Consent/{id} request to AA | The consent id in the api should match with the consent id provided by AA |
 | 1004 | POST /Consent/Notification API | Verify that on making valid POST /Consent/Notification to FIU success response is recevied | Http status code should be 200 |
 | 1005 | POST /Consent/Notification API with Alternate AA id | Verify that on making valid POST /Consent/Notification with alternate AA id  error response is received | Http status code should be 400  Error code should be InvalidNotifier |
 | 1006 | POST /Consent/Notification API with FIP in notifier type | Verify that on making valid POST /Consent/Notification with FIP in notifier type error response is received | Http status code should be 400  Error code should be InvalidNotifier |
@@ -48,7 +48,7 @@ description: Sahamati certification Test Scenarios for Financial Information Use
 | 1041 | Response handling of GET /Consent/{id} API of AA | Verify on responding to GET /Consent/{id} API with invalid JWS Signature the response is discarded by FIU and to validate that check with FIU spoc  if FIU notify about consent generation failure. |  |
 | 1042 | POST /Consent/Notification API with invalid API key | Verify that on making valid POST /Consent/Notification with Invalid API key error response is received | Http status code should be 401 |
 | 1043 | POST /Consent/Notification API with alternate AA API key | Verify that on making valid POST /Consent/Notification with Alternate AA API key error response is received | Http status code should be 400  Error code should be InvalidRequest |
-| 2001 | POST /FI/request API of AA | Verify that FIU makes valid POST /FI/request request to AA  | The request body coming from FIU in request should adhere to Spec |
+| 2001 | POST /FI/request API of AA | Verify that FIU makes valid POST /FI/request request to AA | The request body coming from FIU in request should adhere to Spec |
 | 2002 | POST /FI/Notification API | Verify that on making valid POST /FI/Notification to FIU success response is recevied | Http status code should be 200 |
 | 2003 | POST /FI/Notification API with invalid ver | Verify that on making valid POST /FI/Notification with Invalid ver error response is received | Http status code should be 404  Error code should be NoSuchVersion |
 | 2004 | POST /FI/Notification API with invalid session id | Verify that on making valid POST /FI/Notification with Invalid session id error response is received | Http status code should be 400  Error code should be InvalidSessionId |
@@ -57,7 +57,7 @@ description: Sahamati certification Test Scenarios for Financial Information Use
 | 2007 | POST /FI/Notification API with invalid txnid id | Verify that on making valid POST /FI/Notification with invalid txn id error response is received | Http status code should be 400  Error code should be InvalidRequest |
 | 2008 | POST /FI/Notification API with invalid timestamp | Verify that on making valid POST /FI/Notification with invalid timestamp error response is received | Http status code should be 400  Error code should be InvalidRequest |
 | 2009 | POST /FI/Notification API with selected details of alternate AA | Verify that on making valid POST /FI/Notification with selected details of alternate AA error response is received | Http status codes should be 400   case 1: Different AA id in notifier Id  Error code:InvalidRequest   case 2: Session id generated for different AA  Error code: invalidSessionId   case 3:Account details of different AA  error code :InvalidRequest |
-| 2010 | GET /FI/fetch/{sessionId} API of AA | Verify that FIU makes valid GET /FI/fetch/{sessionid} request to AA  | The request body coming from FIU in request should adhere to Spec |
+| 2010 | GET /FI/fetch/{sessionId} API of AA | Verify that FIU makes valid GET /FI/fetch/{sessionid} request to AA | The request body coming from FIU in request should adhere to Spec |
 | 2011 | POST /FI/Notification API with FIStatusNotification.sessionStatus as EXPIRED | Verify that on making valid POST /FI/Notification with FIStatusNotification.sessionStatus as EXPIRED, FIU Spoc is not able to make FI/fetch |  |
 | 2012 | POST /FI/Notification API with invalid notifier type | Verify that on making valid POST /FI/Notification with invalid notifier type error response is received | Http status code should be 400  Error code should be InvalidRequest |
 | 2015 | POST /FI/Notification API with FIStatusNotification.sessionStatus as FAILED | Verify that on making valid POST /FI/Notification with FIStatusNotification.sessionStatus as EXPIRED, check with FIU Spoc that no FI/fetch is be processed |  |
