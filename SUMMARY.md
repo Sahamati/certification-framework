@@ -1,5 +1,9 @@
 # Table of contents
 
 * [Initial page](README.md)
-* [General Guidelines](general-guidelines.md)
+
+## Guidelines
+
+* [General Guidelines](guidelines/general-guidelines.md)
+* [Session and FI Status IDs](guidelines/session-and-fi-status-ids.md)
 
