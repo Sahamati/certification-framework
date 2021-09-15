@@ -1,4 +1,4 @@
-# Sahamati Certification Standards
+# Sahamati Certification Framework
 
 ## Guidelines
 

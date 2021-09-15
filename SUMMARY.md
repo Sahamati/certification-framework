@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Sahamati Certification Standards](README.md)
+* [Sahamati Certification Framework](README.md)
 
 ## Guidelines
 
