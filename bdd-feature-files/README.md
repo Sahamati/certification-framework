@@ -9,6 +9,12 @@
 
 ## Directory Structure
 
+Feature files are organized module wise. Following are quick links to all modules:
+
+- [AA Module](./AA%20module)
+- [FIP Module](./FIPModule)
+- [FIU Module](./FIU%20Module)
+
 ```sh
 ├── bdd-feature-files # root for all feature files
 │   ├── AA Module
@@ -26,14 +32,14 @@
 │   │   │   ├── **/*.feature
 │   │   ├── 3000 Series # all 3000 series scenarios for FIUs
 │   │   │   ├── **/*.feature
-
 ```
 
 ## How to write feature files with Gherkin?
 
-Gherkin uses a set of special keywords to give structure and meaning to executable specifications. 
+Gherkin uses a set of special keywords to give structure and meaning to executable specifications.
 
 Following is an example:
+
 ```gherkin
 Feature: Guess the word
 
